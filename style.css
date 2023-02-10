@@ -1,0 +1,212 @@
+* {
+  /* border: 1px solid black; */
+}
+body {
+  margin: 0; /* why is there a margin by default? */
+
+  display: flex;
+  flex-flow: column;
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 16px 0;
+
+  display: flex;
+}
+.margin {
+  flex: 0 1 250px;
+}
+.header .content {
+  flex: 1 1377px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header ul {
+  list-style: none;
+  font-size: 18px;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+#logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+.content a {
+  color: #9ba0a9;
+  text-decoration: none;
+}
+
+.part1 {
+  background-color: #1f2937;
+  padding: 64px 0 100px 0;
+
+  display: flex;
+}
+.part1 .content {
+  gap: 16px 100px;
+
+  flex-grow: 1;
+
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content: space-between;
+}
+.part1 .box2 {
+  background-color: #6d747d;
+  color: #d0d2d5;
+  height: 200px;
+
+  flex: 1 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part1 .box1 {
+  flex: 1 300px;
+  gap: 4px;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.part1 .title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.part1 .text {
+  color: #9ba0a9;
+}
+.part1 button {
+  background-color: #3882f6;
+  border: none;
+  padding: 8px 0;
+  margin-top: 8px;
+  width: 100px;
+  border-radius: 12px;
+}
+
+.part2 {
+  display: flex;
+}
+.part2 .content {
+  flex: 1 1377px;
+
+  display: flex;
+  flex-flow: column;
+}
+.part2 .title {
+  text-align: center;
+  padding: 32px 0;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.part2 .cards {
+  gap: 32px;
+  padding-bottom: 100px;
+
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.part2 .cards .card {
+  gap: 8px;
+
+  flex-basis: 225px;
+
+  display: flex;
+  flex-flow: column;
+}
+.part2 .cards .image {
+  border: 2px solid #3882f6;
+  border-radius: 12px;
+  height: 221px;
+}
+.part2 .cards .text {
+  text-align: center;
+  color: #4f5154;
+}
+
+.part3 {
+  background-color: #e5e7eb;
+
+  display: flex;
+}
+.part3 .content {
+  padding: 100px 0;
+  flex: 1 1377px;
+  margin: 0 250px;
+  gap: 20px;
+
+  display: flex;
+  flex-flow: column;
+}
+.part3 .content .text {
+  font-size: 36px;
+  font-style: oblique;
+  color: #1f2937;
+}
+.part3 .content .quote {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 50px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.part4 {
+  display: flex;
+}
+.part4 .content {
+  background-color: #3882f6;
+  margin: 100px 375px;
+  gap: 10px 100px;
+  padding: 50px 100px;
+
+  flex: 1 1377px;
+
+  display: flex;
+  flex-flow: wrap;
+}
+.part4 .content .text {
+  flex-grow: 1;
+
+  display: flex;
+  flex-flow: column;
+}
+.part4 .content .button {
+  display: flex;
+  align-items: center;
+}
+.part4 .content button {
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: #3882f6;
+  padding: 6px 30px;
+  color: white;
+}
+.part4 .content .text .title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.part4 .content .text .body {
+  color: #d7dbe3;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 24px;
+  color: #9ba0a9;
+
+  display: flex;
+  justify-content: center;
+}
